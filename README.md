@@ -33,7 +33,7 @@ Part.Parent(workspace)
 ### Creating a MetaInstance
 You can do this easily by using
 ```lua
-MetaInstance.new(<Instance | string>)
+MetaInstance.new(<Instance | string> object)
 ```
 If you want to start with a new object, you would do this
 ```lua
@@ -70,7 +70,7 @@ end)
 ```
 You can do something when any property of the object changes by doing
 ```lua
-<Object>.OnChanged(<function>)
+<Object>.OnChanged(<function> func)
 ```
 ##
 ### Tweener
@@ -135,7 +135,7 @@ You can do a tween after the first tween is completed by doing
 #### Clones
 You can clone an object by doing
 ```lua
-<Object>:Clone() -- Now will be changing properties for the clone and not the actual object
+<Object>:Clone(<void>) -- Now will be changing properties for the clone and not the actual object
 ```
 Here is an example:
 ```lua
