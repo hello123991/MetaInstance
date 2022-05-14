@@ -5,8 +5,6 @@
 
 Here is a quick example of using this!
 ```lua
-Example Code:
-
 local Part = MetaInstance.new("Part")
 
 Part.Parent(workspace)
