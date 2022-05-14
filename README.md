@@ -63,6 +63,7 @@ You can add connections(like MouseButton1Click, Touched, etc) by doing
 ##
 ### Changed Connections
 You can do something when a specific property changes by doing On[Property]Changed. Not case-sensitive.
+
 Example:
 ```lua
 <Object>.OnTextChanged(function()
