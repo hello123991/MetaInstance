@@ -4,12 +4,12 @@
  Made by hello_123991
 ##
 ### Installation
-You can just copy the code from `MetaInstance.lua` and put it into a new file named "MetaInstance". Then to require it just do
+You can just copy the code from `MetaInstance.lua` and put it into a new file named "MetaInstance." Then to require it just write the following
 ```lua
-require("MetaInstance")
+local MetaInstance = require("MetaInstance")
 ```
 ##
-Here is a quick example of using this!
+Here is a quick example of using this:
 ```lua
 local Part = MetaInstance.new("Part")
 
