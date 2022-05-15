@@ -4,7 +4,7 @@
  Made by hello_123991
 ##
 ### Installation
-You can just copy the code from `MetaInstance.lua` and put it into a new file named "MetaInstance.lua". Then to use it just write the following:
+You can just copy the code from `MetaInstance.lua` and put it into a new file named "MetaInstance.lua". Then in order to use it, just enter the following:
 ```lua
 local MetaInstance = require("MetaInstance")
 ```
@@ -37,21 +37,21 @@ Part.Parent(workspace)
 ```
 ##
 ### Creating a MetaInstance
-You can do this easily by using
+You can do this easily by entering the following:
 ```lua
 MetaInstance.new(<Instance | string> object)
 ```
-If you want to start with a new object, you would do this
+If you want to start with a new object, you would enter the following:
 ```lua
 MetaInstance.new("ClassName")
 ```
-If you want to use an object that is already created, do this
+If you want to use an object that is already created, you would enter the following:
 ```lua
 MetaInstance.new(path.to.object)
 ```
 ##
 ### Changing Properties
-You can change properties fast by doing this
+You can change properties quickly by entering the following:
 ```lua
 <Object>.Property1(<any> Value1)
 .Property2(<any> Value2)
@@ -60,13 +60,13 @@ You can change properties fast by doing this
 ```
 ##
 ### Connections
-You can add connections(like MouseButton1Click, Touched, etc) by doing
+You can add connections (like MouseButton1Click, Touched, etc.) by entering the following:
 ```lua
 <Object>.On(<string> connection)
 ```
 ##
 ### Changed Connections
-You can do something when a specific property changes by doing On[Property]Changed. Not case-sensitive.
+You can execute code when a specific property changes by using On[Property]Changed. (Not case-sensitive.)
 
 Example:
 ```lua
@@ -74,13 +74,13 @@ Example:
 	print("Text Changed!")
 end)
 ```
-You can do something when any property of the object changes by doing
+You can execute code when any property of the object changes by entering the following:
 ```lua
 <Object>.OnChanged(<function> func)
 ```
 ##
 ### Tweener
-This module comes with its own tween system! You can use this by doing
+This module comes with its own tween system!  You can use this feature by entering the following:
 ```lua
 <Object>.Tweener.Property1 {
 	Value = <any>,
@@ -92,9 +92,9 @@ This module comes with its own tween system! You can use this by doing
 	DelayTime = <number>
 }
 ```
-Value and Duration are required
+*Value and Duration are required
 
-You can do multiple properties by doing
+You can tween multiple properties by entering the following:
 ```lua
 <Object>.Tweener.Property1 {
 	Value = <any>,
@@ -115,7 +115,7 @@ You can do multiple properties by doing
 	DelayTime = <number>
 }
 ```
-You can do a tween after the first tween is completed by doing
+You can do a tween after the first tween is completed by entering the following:
 ```lua
 <Object>.Property1 {
 	Value = <any>,
@@ -139,7 +139,7 @@ You can do a tween after the first tween is completed by doing
 ##
 ### Misc
 #### Clones
-You can clone an object by doing
+You can clone an object by entering the following:
 ```lua
 <Object>:Clone(<void>) -- Now will be changing properties for the clone and not the actual object
 ```
@@ -168,16 +168,16 @@ You can get an attribute of your object by doing
 ```lua
 <Object>.Attribute("AttributeName")
 ```
-You can get all of your object's attributes by doing
+You can get all of your object's attributes by entering the following:
 ```lua
 <Object>.Attributes
 ```
 ##### Setting
-You can set an attribute of your object by doing
+You can set an attribute of your object by entering the following:
 ```lua
 <Object>.SetAttribute("AttributeName", "Value")
 ```
-You can set multiple attributes of your object at once by doing
+You can set multiple attributes of your object at once by entering the following:
 ```lua
 <Object>.SetAttributes{
 	"AttributeName1" = "Value1",
@@ -185,7 +185,7 @@ You can set multiple attributes of your object at once by doing
 }
 ```
 #### Instance
-You can get the in-game instance by doing
+You can get the in-game instance by using
 ```lua
 <Object>.Instance
 ```
